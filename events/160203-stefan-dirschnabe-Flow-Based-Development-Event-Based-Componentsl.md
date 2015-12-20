@@ -6,6 +6,8 @@ date: 03.02.2016
 place: KIS - Kaufland Informationssysteme GmbH & Co. KG
 Street: Haller Str. 60
 City: 74189 Weinsberg
+Xing: https://www.xing.com/events/funktionale-software-architektur-flow-based-development-1633744
+Meetup: http://www.meetup.com/de/dotNet-Usergroup-Heilbronn/events/227539456/?eventId=227539456
 ---
 
 
