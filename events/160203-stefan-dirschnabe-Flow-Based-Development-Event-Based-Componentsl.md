@@ -39,5 +39,5 @@ Neben der Entwicklung moderner und innovativer Software-Produkte liegt sein Schw
 <br /><br />
 Qualität gilt für Ihn als nicht verhandelbar.
 <br /><br />
-Mehr über Stefan und seine Skills erfährt man auf www.codelution.de 
+Mehr über Stefan und seine Skills erfährt man auf <a href="www.codelution.de">www.codelution.de</a> 
 </td></tr></table>
