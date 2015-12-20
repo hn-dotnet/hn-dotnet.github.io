@@ -1,6 +1,6 @@
 ---
 layout: events
-title: Gingerbread
+title: Funktionale Software-Architektur mit Flow Based Development
 speeker: Stefan Dirschnabel
 date: 03.02.2016
 place: KIS - Kaufland Informationssysteme GmbH & Co. KG
@@ -8,7 +8,6 @@ Street: Haller Str. 60
 City: 74189 Weinsberg
 ---
 
-# Funktionale Software-Architektur mit Flow Based Development
 
 Vor 5 Jahren wird in der Ausgabe 06/2011 der DotNetPro eine gewagte These propagiert: Die Objektorientierte Programmierung ist tot. 
 Der Trend soll in Richtung funktionale Programmierung gehen. An einigen amerikanischen Universitäten wird anscheinend gar keine OOP
