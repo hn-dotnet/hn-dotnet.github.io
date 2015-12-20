@@ -1,8 +1,11 @@
 ---
 layout: events
 title: Gingerbread
-recipe-attribution: HungryJenny
-recipe-attribution-link: http://www.opensourcefood.com/people/HungryJenny/recipes/soft-christmas-gingerbread-cookies
+speeker: Stefan Dirschnabel
+date: 03.02.2016
+place: KIS - Kaufland Informationssysteme GmbH & Co. KG
+Street: Haller Str. 60
+City: 74189 Weinsberg
 ---
 
 # Funktionale Software-Architektur mit Flow Based Development
@@ -25,4 +28,15 @@ Ihr versteht nur Bahnhof? Dann wird es Zeit diesen neuen Ansatz der Softwareentw
 
 Nach einer Einführung in die Thematik anhand der typischen Probleme des Objekt-Orientierten-Designs geht der Vortrag auch auf 
 Realisierungsmöglichkeiten und Erfahrungen in der Praxis ein. 
+
+
+## über den Sprecher
+Stefan Dirschnabel ist freiberuflicher Software Entwickler, Trainer und Berater. 
+Neben der Entwicklung moderner und innovativer Software-Produkte liegt sein Schwerpunkt im Bereich Clean Code Development und der Beratung hinsichtlich eines sauberen Entwicklungsprozesses.
+
+
+Qualität gilt für Ihn als nicht verhandelbar.
+
+
+Mehr über Stefan und seine Skills erfährt man auf www.codelution.de 
 
