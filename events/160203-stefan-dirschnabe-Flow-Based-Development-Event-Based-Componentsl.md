@@ -30,10 +30,10 @@ Nach einer Einführung in die Thematik anhand der typischen Probleme des Objekt-
 Realisierungsmöglichkeiten und Erfahrungen in der Praxis ein. 
 
 
-## über den Sprecher
+## Über den Sprecher
 <table style="border: none;"><tr><td style="border: none;">
 <img src="https://raw.githubusercontent.com/hn-dotnet/hn-dotnet.github.io/master/content/images/818f21c5-68d0-4a3c-8c16-149a1cfe9b73_stefan-dirschnabel.jpg" style="max-height:150px;">
-</td><td style="border: none;">
+</td><td style="border: none; padding-left: 25px;">
 Stefan Dirschnabel ist freiberuflicher Software Entwickler, Trainer und Berater. 
 Neben der Entwicklung moderner und innovativer Software-Produkte liegt sein Schwerpunkt im Bereich Clean Code Development und der Beratung hinsichtlich eines sauberen Entwicklungsprozesses.
 <br /><br />
