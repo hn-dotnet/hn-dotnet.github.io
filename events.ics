@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Veranstaltungshinweise
+X-WR-TIMEZONE:Europe/Berlin
+X-WR-CALDESC:Übergreifender offener Kalender meiner persönlichen Veranstalt
+ ungshinweise
+ 
+BEGIN:VEVENT
+DTSTART:20160105T180000Z
+DTEND:20160105T200000Z
+DTSTAMP:20151230T142047Z
+UID:41d1af8fbb434542a9e5e4d5d7b2251d@hn-dotnet.de
+CREATED:20151227T110458Z
+ORGANIZER;CN="hn-dotnet":MAILTO:admin@hn-dotnet.de
+DESCRIPTION:Ein lockeres Treffen mit spontanen Diskussionen rund um .Net und den Alltag. Jeder ist eingeladen.
+LAST-MODIFIED:20151227T110458Z
+LOCATION:Lammgasse 30\, 74072\, Heilbronn\, Deutschland
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:MeetAndChill
+TRANSP:OPAQUE
+END:VEVENT
+
+ 
+BEGIN:VEVENT
+DTSTART:20160203T180000Z
+DTEND:20160203T200000Z
+DTSTAMP:20151230T142047Z
+UID:47b707cdb03642efbb04ce64b752b63f@hn-dotnet.de
+CREATED:20151227T110458Z
+ORGANIZER;CN="hn-dotnet":MAILTO:admin@hn-dotnet.de
+DESCRIPTION:Vor 5 Jahren wird in der Ausgabe 06/2011 der DotNetPro eine gewagte These propagiert: Die Objektorientierte Programmierung ist tot. Der Trend soll in Richtung funktionale Programmierung gehen. An einigen amerikanischen Universitäten wird anscheinend gar keine OOP mehr unterrichtet. Ein Ansatz der in diese Richtung geht (und sich seit einigen Jahren hartnäckig in der Community hält) ist der des Flow Based Development. Anwendungslogik wird in wiederverwendbaren Funktionsbausteinen implementiert die nur noch über Datenobjekte kommunizieren. Topologische Abhängigkeiten zwischen Klassen werden eliminiert und nicht nur wie beim Einsatz eines DI-Containers dynamisch aufgelöst. Das hat fundamentale Auswirkungen auf die Architektur eines Softwaresystems. Ihr versteht nur Bahnhof? Dann wird es Zeit diesen neuen Ansatz der Softwareentwicklung kennen zu lernen. Nach einer Einführung in die Thematik anhand der typischen Probleme des Objekt-Orientierten-Designs geht der Vortrag auch auf Realisierungsmöglichkeiten und Erfahrungen in der Praxis ein. - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Über den Autor: Stefan Dirschnabel ist freiberuflicher Software Entwickler, Trainer und Berater. Neben der Entwicklung moderner und innovativer Software-Produkte liegt sein Schwerpunkt im Bereich Clean Code Development und der Beratung hinsichtlich eines sauberen Entwicklungsprozesses.Qualität gilt für Ihn als nicht verhandelbar.Mehr über Stefan und seine Skills erfährt man auf www.codelution.de 
+LAST-MODIFIED:20151227T110458Z
+LOCATION:Haller Str. 60\, 74189\, Weinsberg\, Deutschland
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Funktionale Software-Architektur mit Flow Based Development
+TRANSP:OPAQUE
+END:VEVENT
+
+END:VCALENDAR
