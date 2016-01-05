@@ -49,8 +49,8 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <ul class="nav nav-tabs">
-                        <li class="active"><a onclick="$('#comming').show();$('#passed').hide();">Nächste Veranstaltungen</a></li>
-                        <li><a onclick="$('#comming').hide();$('#passed').show();">Vergangene Veranstaltungen 1</a></li>
+                        <li id="tabComming" class="active"><a onclick="$('#comming').show();$('#passed').hide(); $('#tabComming').toogleClass('active'); $('#tabPassed').toogleClass('active');">Nächste Veranstaltungen</a></li>
+                        <li id="tabPassed"><a onclick="$('#comming').hide();$('#passed').show(); $('#tabComming').toogleClass('active'); $('#tabPassed').toogleClass('active');">Vergangene Veranstaltungen</a></li>
                     </ul>
                     
                     <table class="table table-striped" id="comming">
