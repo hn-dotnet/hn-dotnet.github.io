@@ -48,8 +48,12 @@
 
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                    <h3>Nächste Veranstaltungen</h3>
-                    <table class="table table-striped">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a onclick="$('#comming').show();$('#passed').hide();">Nächste Veranstaltungen</a></li>
+                        <li><a onclick="$('#comming').hide();$('#passed').show();">Vergangene Veranstaltungen 1</a></li>
+                    </ul>
+                    
+                    <table class="table table-striped" id="comming">
                         <thead>
                             <tr>
                                 <td>Datum</td>
@@ -71,6 +75,26 @@
                                 Flow Based Development / Event Based Components</a></td>
                                 <td>Referent: Stefan Dirschnabel (<a href="http://codelution.de/">codelution.de</a> - <a href="https://www.xing.com/profile/Stefan_Dirschnabel"><i class="fa fa-xing"></i> Xing</a>)</td>
                                 <td>KIS - Kaufland Informationssysteme GmbH & Co. KG, Haller Str. 60, 74189 Weinsberg</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    
+                    <table class="table table-striped" id="passed">
+                        <thead>
+                            <tr>
+                                <td>Datum</td>
+                                <td>Name</td>
+                                <td>Beschreibung</td>
+                                <td>Veranstalltungsort</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>02.12.2015</td>
+                                <td><a href="#">Live-Session WebAPI (2.0)</a></td>
+                                <td>Wir wollen uns Microsofts WebAPI 2.0 einmal ansehen. Dazu wollen wir unser Portal von der letzten Session weiterentwickeln und als Webapp umsetzten. Der Fokus liegt dabei auf einer einfachen REST API und einem schmalen Frontend mit jQuery und Knockout.</td>
+                                <td>Coworking Heilbronn e.V.</td>
                             </tr>
                         </tbody>
                     </table>
