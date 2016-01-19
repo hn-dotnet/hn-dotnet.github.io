@@ -41,4 +41,20 @@ SUMMARY:Funktionale Software-Architektur mit Flow Based Development
 TRANSP:OPAQUE
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTART:20160301T180000Z
+DTEND:20160301T200000Z
+DTSTAMP:20151230T142047Z
+UID:41d1af8fbb434542a9e5e4d5d7b2251d@hn-dotnet.de
+CREATED:20151227T110458Z
+ORGANIZER;CN="hn-dotnet":MAILTO:admin@hn-dotnet.de
+DESCRIPTION:Wiedereinmal wollen wir euch zum gemühtlichen Beisammensein einladen und abseits des Büroalltag mit ein paar gute Gespräche führen. Außerdem wollen wir dieses mal den ersten Gatget-Abend veranstalten. Das bedeutet, dass jeder seine Smartwatches, Handys, Tablets oder was sonst noch interessantes greifbar ist mitbringen soll und wir uns das einfach mal in Ruhe anschauen können. Was kann welches Gerät? Welche Geräte sind ähnlich? Wo liegen die Vor und Nachteile? Gerne sollt ihr auch Geräte mitbringen, die nicht aus der .Net-Welt kommen (Androiden, Apple-Devices, etc) Ich freue mich auf einen interessanten Abend mit coolem Spielzeug.
+LAST-MODIFIED:20151227T110458Z
+LOCATION:Lammgasse 30\, 74072\, Heilbronn\, Deutschland
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:MeetAndChill - Gadgetabend
+TRANSP:OPAQUE
+END:VEVENT
+
 END:VCALENDAR
