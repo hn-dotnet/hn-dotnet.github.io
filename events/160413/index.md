@@ -2,7 +2,7 @@
 layout: events
 title: Toolporn - Deine Tools vorgestellt
 speeker: crowd
-date: 06.04.2016
+date: 13.04.2016
 place: KIS - Kaufland Informationssysteme GmbH & Co. KG
 Street: Haller Str. 60
 City: 74189 Weinsberg
