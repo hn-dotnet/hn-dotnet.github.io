@@ -21,3 +21,5 @@ Es sind maximal 2 Verlängerungen je Tool erlaubt.
 
 Wer sein Tool vorstellen will, sollte am besten seinen Laptop mitbringen. Vorhanden sein wird ein Beamer mit VGA. Außerdem wird eine
 VM mit Node, Visual Studio und Visual Studio Code für die Kurzentschlossenen bereitstehen.
+
+Für alle, denen der Name nichts sagt, sei hier nicht eine kleine Hilfestellung gegeben: [Urban Dictionary](http://www.urbandictionary.com/define.php?term=tool+porn)
