@@ -6,7 +6,7 @@ date: 13.04.2016
 place: KIS - Kaufland Informationssysteme GmbH & Co. KG
 Street: Haller Str. 60
 City: 74189 Weinsberg
-Xing: https://www.xing.com/events/toolporn-1664698
+Xing: https://www.xing.com/events/toolporn-1667138
 Meetup: http://www.meetup.com/de-DE/dotNet-Usergroup-Heilbronn/events/229341590/
 ---
 
