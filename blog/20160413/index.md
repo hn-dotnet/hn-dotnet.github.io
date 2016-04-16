@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Linksammlung zum Toolporn Event
-author: @hndnug
+author: hndnug
 date: 16.04.2016
 ---
 
