@@ -37,6 +37,7 @@ Test your Web-API (REST / Soap):
 * <https://www.soapui.org/>
 
 F# Type Providers:
+* Link zum Vortrag von [@a_maier56](https://twitter.com/a_maier56/): <https://github.com/amaier56/FSTypeProviderExamples/blob/master/README.md>
 * <https://msdn.microsoft.com/en-us/library/hh156509.aspx>
 * <http://fsharp.github.io/FSharp.Data/>
 
