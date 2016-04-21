@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <!-- saved from url=(0020)http://hn-dotnet.de/ -->
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        
-        <title>hndotnet - Home Page</title>
-    
-        <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/font-awesome.min.css" rel="stylesheet" />
-    </head>
-    <body style="max-width: 100%;">
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="http://hn-dotnet.de/">.Net Usergroup Heilbronn</a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    
-                </div>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>hndotnet - Home Page</title>
+
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body style="max-width: 100%;">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="http://hn-dotnet.de/">.Net Usergroup Heilbronn</a>
+            </div>
+            <div class="navbar-collapse collapse">
+
             </div>
         </div>
-        <div class="container-fluid body-content">
-            <div class="row">
-                <div class="col-md-12 bg-lightBlue full-height header" style="height: 936px;">
-                    <div class="row">
-                        <!--
+    </div>
+    <div class="container-fluid body-content">
+        <div class="row">
+            <div class="col-md-12 bg-lightBlue full-height header" style="height: 936px;">
+                <div class="row">
+                    <!--
                         <div class="arrow_box col-md-offset-2 col-md-3">
                             <h3>Nächster Termin: Toolporn</h3>
                             <p>Ort: KIS - Kaufland Informationssysteme GmbH & Co. KG, Haller Str. 60, 74189 Weinsberg</p>
@@ -38,87 +40,91 @@
                             <p><a href="https://www.xing.com/events/toolporn-1667138"> <i class="fa fa-xing"></i> Anmeldung bei Xing</a></p>
                         </div>
                         -->
-                        
-                        
-                        <div class="arrow_box col-md-offset-2 col-md-3">
-                            <h3>Kalender importieren</h3>
-                            <p>Unseren Kalender kannst du auch direkt in deine Kalenderapp abonieren. Dann verpasst du bestimmt nichts mehr.</p>
-                            <p><a href="events.ics">Hier gehts zur .ICS-Datei</a></p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <br />
-                    <ul class="nav nav-tabs" style="cursor: pointer;">
-                        <li id="tabComming" class="active"><a onclick="$('#comming').show();$('#passed').hide(); $('#tabComming').toggleClass('active'); $('#tabPassed').toggleClass('active');">Nächste Veranstaltungen</a></li>
-                        <li id="tabPassed"><a onclick="$('#comming').hide();$('#passed').show(); $('#tabComming').toggleClass('active'); $('#tabPassed').toggleClass('active');">Vergangene Veranstaltungen</a></li>
-                    </ul>
-                    
-                    <table class="table table-striped" id="comming">
-                        <thead>
-                            <tr>
-                                <td>Datum</td>
-                                <td>Name</td>
-                                <td>Beschreibung</td>
-                                <td>Veranstalltungsort</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                        </tbody>
-                    </table>
-                    
-                    
-                    <table class="table table-striped" id="passed" style="display: none;">
-                        <thead>
-                            <tr>
-                                <td>Datum</td>
-                                <td>Name</td>
-                                <td>Beschreibung</td>
-                                <td>Veranstalltungsort</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>13.04.2016</td>
-                                <td><a href="/events/160413/">Tool-Porn</a></td>
-                                <td>Hast auch du ein Lieblingstool für deine tägliche Arbeit als Entwickler? Zeig es uns.</td>
-                                <td>KIS - Kaufland Informationssysteme GmbH & Co. KG, Haller Str. 60, 74189 Weinsberg</td>
-                            </tr>
-                            <tr>
-                                <td>01.03.2016</td>
-                                <td><a href="http://hn-dotnet.de/events/20150301-MeetAndChill/">MeetAndChill Gadgetabend </a></td>
-                                <td>Cooles neues Gadget? Dann zeig her! In gemühtlicher Atmosphäre mal das Spielzeug vergleichen.</td>
-                                <td>Irish Pub Lammgasse</td>
-                            </tr>
-                            <tr>
-                                <td>03.02.2016</td>
-                                <td><a href="/events/160203-stefan-dirschnabe-Flow-Based-Development-Event-Based-Componentsl.html">
-                                Flow Based Development / Event Based Components</a></td>
-                                <td>Referent: Stefan Dirschnabel (<a href="http://codelution.de/">codelution.de</a> - <a href="https://www.xing.com/profile/Stefan_Dirschnabel"><i class="fa fa-xing"></i> Xing</a>)</td>
-                                <td>KIS - Kaufland Informationssysteme GmbH & Co. KG, Haller Str. 60, 74189 Weinsberg</td>
-                            </tr>
-                            <tr>
-                                <td>05.01.2016</td>
-                                <td><a href="http://hn-dotnet.de/events/20160105-MeetAndChill/">Meet And Chill</a></td>
-                                <td>Ein lockeres Treffen mit spontanen Diskussionen rund um .Net und den Alltag. Jeder ist eingeladen.</td>
-                                <td>Irish Pub Lammgasse</td>
-                            </tr>
-                            <tr>
-                                <td>02.12.2015</td>
-                                <td><a href="#">Live-Session WebAPI (2.0)</a></td>
-                                <td>Wir wollen uns Microsofts WebAPI 2.0 einmal ansehen. Dazu wollen wir unser Portal von der letzten Session weiterentwickeln und als Webapp umsetzten. Der Fokus liegt dabei auf einer einfachen REST API und einem schmalen Frontend mit jQuery und Knockout.</td>
-                                <td>Coworking Heilbronn e.V.</td>
-                            </tr>
-                        </tbody>
-                    </table>
+
+                    <div class="arrow_box col-md-offset-2 col-md-3">
+                        <h3>Kalender importieren</h3>
+                        <p>Unseren Kalender kannst du auch direkt in deine Kalenderapp abonieren. Dann verpasst du bestimmt
+                            nichts mehr.</p>
+                        <p><a href="events.ics">Hier gehts zur .ICS-Datei</a></p>
+                    </div>
+
                 </div>
             </div>
-            
-            <!--
+        </div>
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <br />
+                <ul class="nav nav-tabs" style="cursor: pointer;">
+                    <li id="tabComming" class="active"><a onclick="$('#comming').show();$('#passed').hide(); $('#tabComming').toggleClass('active'); $('#tabPassed').toggleClass('active');">Nächste Veranstaltungen</a></li>
+                    <li id="tabPassed"><a onclick="$('#comming').hide();$('#passed').show(); $('#tabComming').toggleClass('active'); $('#tabPassed').toggleClass('active');">Vergangene Veranstaltungen</a></li>
+                </ul>
+
+                <table class="table table-striped" id="comming">
+                    <thead>
+                        <tr>
+                            <td>Datum</td>
+                            <td>Name</td>
+                            <td>Beschreibung</td>
+                            <td>Veranstalltungsort</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+
+
+                <table class="table table-striped" id="passed" style="display: none;">
+                    <thead>
+                        <tr>
+                            <td>Datum</td>
+                            <td>Name</td>
+                            <td>Beschreibung</td>
+                            <td>Veranstalltungsort</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>13.04.2016</td>
+                            <td><a href="/events/160413/">Tool-Porn</a></td>
+                            <td>Hast auch du ein Lieblingstool für deine tägliche Arbeit als Entwickler? Zeig es uns.</td>
+                            <td>KIS - Kaufland Informationssysteme GmbH & Co. KG, Haller Str. 60, 74189 Weinsberg</td>
+                        </tr>
+                        <tr>
+                            <td>01.03.2016</td>
+                            <td><a href="http://hn-dotnet.de/events/20150301-MeetAndChill/">MeetAndChill Gadgetabend </a></td>
+                            <td>Cooles neues Gadget? Dann zeig her! In gemühtlicher Atmosphäre mal das Spielzeug vergleichen.</td>
+                            <td>Irish Pub Lammgasse</td>
+                        </tr>
+                        <tr>
+                            <td>03.02.2016</td>
+                            <td><a href="/events/160203-stefan-dirschnabe-Flow-Based-Development-Event-Based-Componentsl.html">
+                                Flow Based Development / Event Based Components</a></td>
+                            <td>Referent: Stefan Dirschnabel (<a href="http://codelution.de/">codelution.de</a> -
+                                <a href="https://www.xing.com/profile/Stefan_Dirschnabel"><i class="fa fa-xing"></i> Xing</a>)</td>
+                            <td>KIS - Kaufland Informationssysteme GmbH & Co. KG, Haller Str. 60, 74189 Weinsberg</td>
+                        </tr>
+                        <tr>
+                            <td>05.01.2016</td>
+                            <td><a href="http://hn-dotnet.de/events/20160105-MeetAndChill/">Meet And Chill</a></td>
+                            <td>Ein lockeres Treffen mit spontanen Diskussionen rund um .Net und den Alltag. Jeder ist eingeladen.</td>
+                            <td>Irish Pub Lammgasse</td>
+                        </tr>
+                        <tr>
+                            <td>02.12.2015</td>
+                            <td><a href="#">Live-Session WebAPI (2.0)</a></td>
+                            <td>Wir wollen uns Microsofts WebAPI 2.0 einmal ansehen. Dazu wollen wir unser Portal von der letzten
+                                Session weiterentwickeln und als Webapp umsetzten. Der Fokus liegt dabei auf einer einfachen
+                                REST API und einem schmalen Frontend mit jQuery und Knockout.</td>
+                            <td>Coworking Heilbronn e.V.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!--
             <div class="row" style="background: #0072c6; color: #fff; padding-top: 15px; padding-bottom: 15px;">
                 <div class="col-md-5 col-md-offset-1">
                     <h3>Veranstaltungshinweis - Microsoft Azure Tour</h3>
@@ -139,56 +145,62 @@
                 </div>
             </div>
             -->
-            
-            <div class="row">
-                <div class="col-md-5 col-md-offset-1">
-                    <h3>Wer sind wir?</h3>
-                    <p>
-                        Wir sind eine Gruppe von .Net-Entwicklern, die sich dem gegenseitigem Austausch über ihre Arbeit und der .Net-Plattform verschrieben haben. Wir wollen die Kommunikation und Sichtbarkeit
-                        von dotNet-Entwicklern in der Region und darüber hinaus fördern. Dazu treffen wir uns zum Netzwerken beim MeetAndChill oder diskutieren bei Sessions über bestimmte Themen.
-                    </p>
-                    <p>
-                        Jeder ist eingeladen. Wir freuen uns dich bei einem unserer Treffen zu begrüßen. Egal ob langjähriger Entwickler, Padawan der Programmierung oder was auch immer - jeder kann die Diskussion bereichern.
-                    </p>
-                    <p>
-                        Du brauchst Hilfe bei einem Projekt? Suchst nach Anregungen oder Diskusionspartnern? Immer hereinspaziert. Wir bieten unterschiedliche Formate an, so dass für jeden etwas dabei ist.
-                        Auserdem bieten wir immer eine gemütliche Atmosphäre und auch eine Runde Offtopic ist nicht verkehrt. Also kommt vorbei und macht euch selbst ein Bild.
-                    </p>
-                </div>
-                <div class="col-md-4 col-md-offset-1">
+
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1">
+                <h3>Wer sind wir?</h3>
+                <p>
+                    Wir sind eine Gruppe von .Net-Entwicklern, die sich dem gegenseitigem Austausch über ihre Arbeit und der .Net-Plattform verschrieben
+                    haben. Wir wollen die Kommunikation und Sichtbarkeit von dotNet-Entwicklern in der Region und darüber
+                    hinaus fördern. Dazu treffen wir uns zum Netzwerken beim MeetAndChill oder diskutieren bei Sessions über
+                    bestimmte Themen.
+                </p>
+                <p>
+                    Jeder ist eingeladen. Wir freuen uns dich bei einem unserer Treffen zu begrüßen. Egal ob langjähriger Entwickler, Padawan
+                    der Programmierung oder was auch immer - jeder kann die Diskussion bereichern.
+                </p>
+                <p>
+                    Du brauchst Hilfe bei einem Projekt? Suchst nach Anregungen oder Diskusionspartnern? Immer hereinspaziert. Wir bieten unterschiedliche
+                    Formate an, so dass für jeden etwas dabei ist. Auserdem bieten wir immer eine gemütliche Atmosphäre und
+                    auch eine Runde Offtopic ist nicht verkehrt. Also kommt vorbei und macht euch selbst ein Bild.
+                </p>
+            </div>
+            <div class="col-md-4 col-md-offset-1">
+                <a href="http://hn-dotnet.de/blog/20160413-toolporn/">
                     <div>
-                        <h3>Blogbeitrag: Toolporn - Liste der Tools</h3>
-                        Hier findet ihr einen kleinen Bericht und die Liste der vorgestellten Tool.
+                        <h3>Blogbeitrag: Toolporn - Liste der Tools</h3> Hier findet ihr einen kleinen Bericht und die Liste der vorgestellten Tool.
                     </div>
-                </div>
+                </a>
             </div>
-            
-            <div class="row">
-                <div class="col-md-4 col-md-offset-1">
-                    
-                </div>
-                <div class="col-md-5 col-md-offset-1">
-                    <h3>Was ist .Net?</h3>
-                    <p>
-                        Der Begriff .Net Bezeichnet eine Sammlung von Frameworks von Microsoft. Seit dem Jahr 2000 wird es als Plattform für Entwickler unterschiedlicher
-                        Sprachen immer weiter ausgebaut. Mittlerweile ist die wichtigste Komponente der .Net Core, der von Microsoft für nahezu alle Gerätetypen
-                        bereitgestellt wird. So kann mit .Net plattformunabhängig entwickelt werden.
-                    </p>
-                    <p>
-                        Neben dem Core gibt es viele weiter Module. ASP.Net ist eine Erweiterung um Web-Portale zu entwicklen, während WPF für die Entwicklung von
-                        Desktopanwendungen eingestzt wird. Es gibt Erweiterungen für die Entwicklung von Apps für Windows Phone, Android und IPhone. Je nach Anwendungsfall
-                        gibt es eine vielzahl weiterer Module.
-                    </p>
-                    <p>
-                        Um es dem Entwickler leichter zu machen, hat Microsoft Visual Studio als IDE bereitgestellt. Diese IDE verfügt über den
-                        Paketmanager "NuGet" um alle Module zu verwalten. So minimiert sich der Aufwand für Entwickler bei der Suche von Modulen.
-                    </p>
-                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-1">
+
             </div>
-            
-            <footer class="bg-darkGray footer">
-                <div class="container-fluid">
-                    <div class="row" style="margin: 0;">
+            <div class="col-md-5 col-md-offset-1">
+                <h3>Was ist .Net?</h3>
+                <p>
+                    Der Begriff .Net Bezeichnet eine Sammlung von Frameworks von Microsoft. Seit dem Jahr 2000 wird es als Plattform für Entwickler
+                    unterschiedlicher Sprachen immer weiter ausgebaut. Mittlerweile ist die wichtigste Komponente der .Net
+                    Core, der von Microsoft für nahezu alle Gerätetypen bereitgestellt wird. So kann mit .Net plattformunabhängig
+                    entwickelt werden.
+                </p>
+                <p>
+                    Neben dem Core gibt es viele weiter Module. ASP.Net ist eine Erweiterung um Web-Portale zu entwicklen, während WPF für die
+                    Entwicklung von Desktopanwendungen eingestzt wird. Es gibt Erweiterungen für die Entwicklung von Apps
+                    für Windows Phone, Android und IPhone. Je nach Anwendungsfall gibt es eine vielzahl weiterer Module.
+                </p>
+                <p>
+                    Um es dem Entwickler leichter zu machen, hat Microsoft Visual Studio als IDE bereitgestellt. Diese IDE verfügt über den Paketmanager
+                    "NuGet" um alle Module zu verwalten. So minimiert sich der Aufwand für Entwickler bei der Suche von Modulen.
+                </p>
+            </div>
+        </div>
+
+        <footer class="bg-darkGray footer">
+            <div class="container-fluid">
+                <div class="row" style="margin: 0;">
                     <div class="col-md-3 col-lg-offset-1">
                         <h4>Du findest uns auch auf:</h4>
                         <p><a href="https://github.com/orgs/hn-dotnet"><i class="fa fa-github"></i> GitHub</a></p>
@@ -196,53 +208,55 @@
                         <p><a href=""><i class="fa fa-facebook"></i> Facebook</a></p>
                         <p><a href="https://www.xing.com/communities/groups/dotnet-usergroup-heilbronn-e9a6-1083066"><i class="fa fa-xing"></i> XING</a></p>
                     </div>
-    
+
                     <div class="col-md-2">
                         <p>Impressum</p>
-                                <div class="row">
-                                    <div class="impressum">
-                                        <p>Angaben gemäß § 5 TMG</p><p>
-                                            Jonathan Günz <br>
-                                            Sülmerstraße 21<br>
-                                            47072 Heilbronn <br>
-                                        </p><p>
-                                            <strong>Vertreten durch: </strong><br>
-                                            Jonathan Günz<br>
-                                        </p><p>
-                                            <strong>Kontakt:</strong> <br>
-                                            Telefon: 0173-3606971<br>
-                                            E-Mail: <a href="mailto:jonathan.guenz@outlook.com">jonathan.guenz@outlook.com</a><br>
-                                        </p><p>
-                                            <strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong><br>
-                                            Jonathan Günz <br>
-                                            Sülmerstraße<br>
-                                            74072 Heilbronn <br>
-                                        </p>
-                                    </div>
-                                </div>
-                                
+                        <div class="row">
+                            <div class="impressum">
+                                <p>Angaben gemäß § 5 TMG</p>
+                                <p>
+                                    Jonathan Günz <br> Sülmerstraße 21<br> 47072 Heilbronn <br>
+                                </p>
+                                <p>
+                                    <strong>Vertreten durch: </strong><br> Jonathan Günz<br>
+                                </p>
+                                <p>
+                                    <strong>Kontakt:</strong> <br> Telefon: 0173-3606971<br> E-Mail: <a href="mailto:jonathan.guenz@outlook.com">jonathan.guenz@outlook.com</a><br>
+                                </p>
+                                <p>
+                                    <strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong><br> Jonathan Günz
+                                    <br> Sülmerstraße
+                                    <br> 74072 Heilbronn <br>
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
-    
+
                     <div class="col-md-2">
                         <h4>Auch von Interesse</h4>
                         <p><a href="http://connect-it.hn/">connect.IT</a></p>
                         <p><a href="http://coworking-heilbronn.org/">Coworking Heilbronn</a></p>
                         <p><a href="http://codefor.de/en/heilbronn/">Code for Heilbronn</a></p>
                     </div>
-    
+
                     <div class="col-md-3">
-                        <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-timeline twitter-timeline-rendered" style="position: static; visibility: visible; display: inline-block; width: 100%; height: 500px; padding: 0px; border: none; max-width: 520px; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;" data-widget-id="656119082408878080" data-user-id="3087162135" title="Twitter Timeline"></iframe>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-timeline twitter-timeline-rendered"
+                            style="position: static; visibility: visible; display: inline-block; width: 100%; height: 500px; padding: 0px; border: none; max-width: 520px; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;"
+                            data-widget-id="656119082408878080" data-user-id="3087162135" title="Twitter Timeline"></iframe>
+                        <script>
+                            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                        </script>
                     </div>
                 </div>
-                    <div class="row" style="margin: 0;border-top:solid 1px #121212; background-color:#272727; padding: 15px 0px 15px 0px;">
+                <div class="row" style="margin: 0;border-top:solid 1px #121212; background-color:#272727; padding: 15px 0px 15px 0px;">
                     <div class="col-md-10 col-md-offset-1">
                         © 2015 dotNet Usergroup Heilbronn
                     </div>
                 </div>
-                </div>
-            </footer>
-        </div>
+            </div>
+        </footer>
+    </div>
 
     <script src="js/jquery.js"></script>
 
@@ -257,9 +271,9 @@
             $(".full-height").height($(window).height()-100);
         })
     </script>
-    
+
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
@@ -267,7 +281,8 @@
   ga('create', 'UA-62280697-1', 'auto');
   ga('send', 'pageview');
 
-</script>
-    
-    </body>
+    </script>
+
+</body>
+
 </html>
