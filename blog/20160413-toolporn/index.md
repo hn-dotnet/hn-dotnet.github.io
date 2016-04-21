@@ -45,21 +45,78 @@ Hierbei handelt es sich um ein Tool, dass den Bildschirm eines Smartphones auf d
 
 ## zapier.com
 Zapier ist eine Cloud-Datendrehscheibe. Sie schießt Anfragen aus Formularen z.B. in einen Google-Kalender
-oder erstellt Tickets. Aktuell ist der Service leider auf bestimmte
+oder erstellt Tickets. Aktuell ist der Service leider auf bestimmte Quellen beschränkt.
 
   
-http://wufoo.com 
-http://camunda.com 
-http://lobster-uk.com 
+## wufoo.com
 
-popapp.in
-http://sketchappsources.com 
-http://pixate.com 
+Wufoo ist eine Plattform um Formulare im Internet zu erstellen, zu teilen und später auch automatisch auszulesen.
+Cool in kombination mit zapier.com um z.B. Terminanfragen automatisch in einen Kalender zu stellen.
 
-postman (Chrome Extension / Standalone?) (soap-ui...)
+[wufoo.com](http://wufoo.com)
 
-http://Flaticons.net 
-http://fontawesome.github.io  
-http://letsencrypt.org     
+## camunda.com
 
-F# Type-Providers
+Business Process Designer
+
+[camunda](http://camunda.com)
+
+## lobster-uk.com
+
+Datendrehscheibe für alle Fälle. Von API and Datenbank oder Dateien - Kein Problem. Aber mit einer schrecklichen UI/UX.
+
+[lobster-uk](http://lobster-uk.com)
+
+## popapp.in
+
+PoppApp ist eine App für Android und iPhone um aus Papierprototypen einen Klickprototyp zu machen. Dazu macht man einfach
+Fotos von der Zeichnung. Über diese Bilder kann man dann Bereiche legen und mit bestimmten Aktionen und Gesten verbinden.
+Kleine Animationen für Übergänge sind ebenfalls möglich.
+
+[PopApp](https://popapp.in)
+
+## sketchappsources.com
+
+[sketchappsources](http://sketchappsources.com)
+
+## pixate.com 
+
+Prototyping für native Apps.
+
+[pixate](http://pixate.com)
+
+## postman (Chrome Extension / Standalone?) (soap-ui...)
+Testtool für APIs. Einfache schnelle Tests (kurz mal drauf los feuern) funktiniert genau so wie längere gespeicherte Tests.
+Außerdem mit einer Teamfunktion, so dass man Tests für eine API auch mit seinem Team teilen kann.
+
+Features:
+* Authorizations (Basic Auth, Digest Auth, OAuth, Hawk Auth, AWS Signature)
+* Headers
+* Body
+* Pre-Request Scripts
+* Test Scripts
+
+[Postman Chrome Extension](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
+
+## Flaticons.net
+
+Iconbibliothek für alle Fälle. Icons werden als PNG geliefert und können skaliert und coloriert werden.
+
+## fontawesome.github.io
+
+Iconbibliothek für Webentwickler. Fontawesome liefert Icons in Form von Schriftarten aus. Daher können sie komplett frei skaliert werden.
+
+[fontawesome](http://fontawesome.github.io)
+
+## letsencrypt.org     
+
+SSL-Zertifikate automatisiert über eine API auf eigene Server installieren. Die Zertifikate werden über eine eigene Clientsoftware von
+letsencrypt ausgeliefert. Es gibt aber auch viele andere Tools um die Zertifikate zu deployen.
+
+[letsencrypt.org](http://letsencrypt.org)
+
+## F# Type-Providers
+
+Intellisense für F# um Typenecht zu entwickeln.
+
+[F# Typeprovider MSDN](https://msdn.microsoft.com/en-us/library/hh156509.aspx)
