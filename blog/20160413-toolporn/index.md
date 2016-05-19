@@ -102,6 +102,8 @@ Features:
 
 Iconbibliothek für alle Fälle. Icons werden als PNG geliefert und können skaliert und coloriert werden.
 
+[Flaticons](http://Flaticons.net)
+
 ## fontawesome.github.io
 
 Iconbibliothek für Webentwickler. Fontawesome liefert Icons in Form von Schriftarten aus. Daher können sie komplett frei skaliert werden.
@@ -120,3 +122,5 @@ letsencrypt ausgeliefert. Es gibt aber auch viele andere Tools um die Zertifikat
 Intellisense für F# um Typenecht zu entwickeln.
 
 [F# Typeprovider MSDN](https://msdn.microsoft.com/en-us/library/hh156509.aspx)
+
+[Link zum Vortrag von](https://github.com/amaier56/FSTypeProviderExamples/blob/master/README.md) [@a_maier56](https://twitter.com/a_maier56/)
