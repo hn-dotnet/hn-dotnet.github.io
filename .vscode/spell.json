@@ -1,1 +1,1 @@
-{"language":"de","ignoreWordsList":["Freitag","Günz","Freitag","Freitag","layout","blog","author","date"],"mistakeTypeToStatus":{"Spelling":"Error","Passive Voice":"Warning","Complex Expression":"Warning","Hyphen Required":"Error"},"languageIDs":["markdown","text"],"ignoreRegExp":[]}
+{"language":"de","ignoreWordsList":["Freitag","Günz","Freitag","Freitag","layout","blog","author","date","Usergroup"],"mistakeTypeToStatus":{"Spelling":"Error","Passive Voice":"Warning","Complex Expression":"Warning","Hyphen Required":"Error"},"languageIDs":["markdown","text"],"ignoreRegExp":[]}
